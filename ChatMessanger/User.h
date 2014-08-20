@@ -1,9 +1,17 @@
 #pragma once
 #include <iostream>
+#include "ClientConnector.h"
+#include "ServerConnector.h"
+
 
 class User
 {
 protected:
+	std::string _myIP;
+	ClientConnector* _clientConnector = nullptr;
+	ServerConnector* _serverConnector = nullptr;
+
+	std::string detectMyIP();
 
 public:
 	User();
