@@ -1,0 +1,15 @@
+﻿Build started 21/08/2014 12:13:08 ص.
+     1>Project "c:\Users\Hesham\documents\visual studio 2013\Projects\ChatMessanger\ChatMessanger\ChatMessanger.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt InputDetector.cpp main.cpp User.cpp
+         User.cpp
+         main.cpp
+     1>c:\users\hesham\documents\visual studio 2013\projects\chatmessanger\chatmessanger\main.cpp(40): error C2039: 'connectTo' : is not a member of 'User'
+                 c:\users\hesham\documents\visual studio 2013\projects\chatmessanger\chatmessanger\user.h(5) : see declaration of 'User'
+         InputDetector.cpp
+         Generating Code...
+     1>Done Building Project "c:\Users\Hesham\documents\visual studio 2013\Projects\ChatMessanger\ChatMessanger\ChatMessanger.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.32
