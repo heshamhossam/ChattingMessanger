@@ -11,7 +11,7 @@ using namespace std;
 int main()
 {
 	string userInput, targetComputerIP;
-	InputType inputType;
+	InputType inputType = InputType::CONNECT_TO_COMPUTER;
 	User* user = new User();
 
 	while (inputType != InputType::QUIT)

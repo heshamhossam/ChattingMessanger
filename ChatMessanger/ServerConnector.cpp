@@ -17,9 +17,11 @@ ServerConnector::ServerConnector(std::string IP)
 std::string ServerConnector::recieveText()
 {
 	//recieves text from any connection connected to me 
+	return "";
 }
 
 bool ServerConnector::hasNewTextMessages()
 {
 	//check if any connection made a connection and sent me a text message
+	return true;
 }
